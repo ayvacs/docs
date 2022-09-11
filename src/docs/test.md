@@ -1,5 +1,5 @@
 ---
-name: "Hello World"
+title: "Hello World"
 ---
 
 # hello there
