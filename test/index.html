@@ -9,7 +9,14 @@
 <body>
 	<div id="header">
 		<h1>Hello World</h1>
-		<span><script>document.write(window.location.href);</script></span>
+		<span>
+			<script>document.write(window.location.href);</script>
+			<br>
+			<script>document.write(
+				`<a target="_blank" href="https://github.com/ayvacs/docs/commits/main/src/${
+					(window.location.pathname).replaceAll("docs", "").replaceAll("/", "")
+				}.md">Click to view edit history</a>`
+			)</script></span>
 	</div>
 	<div id="content-main">
 		<h1>hello there</h1>
